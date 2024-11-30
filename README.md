@@ -2,7 +2,7 @@
 BSD games Dockerized builder
 
 # To Build:
-docker build -it bsdgames:{Version You Want} .
+docker build -it bsdgames:{Version You Want} {Path of the Docker File}
 
 # To Run:
 docker run -it --rm bsdgames:latest
