@@ -1,10 +1,10 @@
 # Dockerized-BSD-Games
 BSD games Dockerized builder
 
-# To Build:
+# To Build
 docker build -it bsdgames:{Version You Want} {Path of the Docker File} --no-cache
 
-# To Run:
+# To Run
 docker run -it --rm bsdgames:latest
 
 # Notes
